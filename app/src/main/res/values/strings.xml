@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MultiformsUI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_is_the_email_and_phone_no_that_we_can_reach_you_the_best">What is the email and phone no that we can reach you the best?</string>
+    <string name="email">email *</string>
+    <string name="phone_number">phone number *</string>
+    <string name="thanks_just_a_few_more_details_and_we_are_done">Thanks! Just a few more details and we are done!</string>
+    <string name="required">Required</string>
+    <string name="company_name">Company Name *</string>
+    <string name="job_title">Job Title *</string>
+    <string name="request_demo">Request Demo</string>
+    <string name="can_you_tell_us_a_bit_more_about_yourself">Can you tell us a bit more about yourself?</string>
+    <string name="first_name">First Name *</string>
+    <string name="last_name">Last Name *</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="great_what_department_do_you_work_in">Great! What department do you work in?</string>
+    <string name="marketing">Marketing</string>
+    <string name="sales">Sales</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="welcome_what_are_you_looking_for">Welcome! What are you looking for?</string>
+    <string name="lead_generation_bots">Lead Generation Bots</string>
+    <string name="multi_step_forms">Multi-step Forms</string>
+    <string name="integrations">Integrations</string>
+</resources>

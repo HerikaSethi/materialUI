@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screenOneFragment">
+
+    <fragment
+        android:id="@+id/screenOneFragment"
+        android:name="com.example.multiformsui.screens.ScreenOneFragment"
+        android:label="ScreenOneFragment" >
+        <action
+            android:id="@+id/action_screenOneFragment_to_screenTwoFragment"
+            app:destination="@id/screenTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenTwoFragment"
+        android:name="com.example.multiformsui.screens.ScreenTwoFragment"
+        android:label="ScreenTwoFragment" >
+        <action
+            android:id="@+id/action_screenTwoFragment_to_screenThreeFragment"
+            app:destination="@id/screenThreeFragment" />
+        <action
+            android:id="@+id/action_screenTwoFragment_to_screenOneFragment"
+            app:destination="@id/screenOneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenThreeFragment"
+        android:name="com.example.multiformsui.screens.ScreenThreeFragment"
+        android:label="ScreenThreeFragment" >
+        <action
+            android:id="@+id/action_screenThreeFragment_to_screenFourFragment"
+            app:destination="@id/screenFourFragment" />
+        <action
+            android:id="@+id/action_screenThreeFragment_to_screenTwoFragment"
+            app:destination="@id/screenTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenFourFragment"
+        android:name="com.example.multiformsui.screens.ScreenFourFragment"
+        android:label="ScreenFourFragment" >
+        <action
+            android:id="@+id/action_screenFourFragment_to_screenFiveFragment"
+            app:destination="@id/screenFiveFragment" />
+        <action
+            android:id="@+id/action_screenFourFragment_to_screenThreeFragment"
+            app:destination="@id/screenThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenFiveFragment"
+        android:name="com.example.multiformsui.screens.ScreenFiveFragment"
+        android:label="ScreenFiveFragment" >
+        <action
+            android:id="@+id/action_screenFiveFragment_to_screenFourFragment2"
+            app:destination="@id/screenFourFragment" />
+    </fragment>
+</navigation>
